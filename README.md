@@ -4,12 +4,12 @@ In Unity sometimes we want to move our characters in a endless background, such 
 One of the solutions comes to mind is <u>moving the camera along with the background</u>. To achieve this is quite simple, the whole idea is to `attach the background to your main camera:`. The following example shows you how to do this:
 
 
-###A project with the following game objects, and put Plane under the main camera.
-![IMAGE](quiver-image-url/449CEF24420A7974C3DC8530FB879300.jpg =1435x1068)
+### A project with the following game objects, and put Plane under the main camera.
+![https://github.com/arkilis/EndlessInUnity/blob/master/images/Unity%202017.3.0f3%20Personal%20(64bit)%20-%20main.unity%20-%20EndlessScene%20-%20PC%2C%20Mac%20%26%20Linux%20Standalone%20(Personal)%20%3COpenGL%204.1%3E%202018-04-14%2008-25-19.png](https://github.com/arkilis/EndlessInUnity/blob/master/images/Unity%202017.3.0f3%20Personal%20(64bit)%20-%20main.unity%20-%20EndlessScene%20-%20PC%2C%20Mac%20%26%20Linux%20Standalone%20(Personal)%20%3COpenGL%204.1%3E%202018-04-14%2008-25-19.png)
 
-###For the main camera, create a script named `CameraFollow` with the below code
+### For the main camera, create a script named `CameraFollow` with the below code
 
-####CameraFollow C# Script
+#### CameraFollow C# Script
 ```c#
 
 using System.Collections;
@@ -39,6 +39,6 @@ public class CameraFollow : MonoBehaviour {
 ```
 
 
-###Reference
+### Reference
 
-![http://www.arkilis.me/?p=1049](http://www.arkilis.me/?p=1049)
+[http://www.arkilis.me/?p=1049](http://www.arkilis.me/?p=1049)
